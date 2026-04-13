@@ -1,0 +1,32 @@
+# Python
+import chat_history
+import cod
+import docker
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
+.venv/
+venv/
+
+# 数据文件（不要上传到 GitHub）
+data/chroma_db/
+data/chat_history.db
+knowledge_base/
+
+# 环境变量（包含密钥）
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Docker
+.docker/
+
+# Streamlit
+.streamlit/

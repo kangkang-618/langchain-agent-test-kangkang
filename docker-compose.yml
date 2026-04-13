@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      # 挂载数据目录，容器删除后数据还在
+      - ./data:/app/data
+      - ./knowledge_base:/app/knowledge_base
+    environment:
+      # API Key 通过环境变量传入（安全）
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
+      - EMBEDDING_API_KEY=${EMBEDDING_API_KEY}
+    restart: unless-stopped
