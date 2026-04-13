@@ -38,8 +38,6 @@
 │向量数据库│
 └─────────┘
 
-CopyCopied!
-
 ## 🛠️ 技术栈
 
 | 层级 | 技术 | 说明 |
@@ -73,7 +71,6 @@ langchain-agent-test-kangkang/
 ├── requirements.txt # Python 依赖
 └── README.md # 项目文档
 
-CopyCopied!
 
 ## 🚀 快速开始
 
@@ -125,4 +122,3 @@ LangChain
 DeepSeek
 Chroma
 硅基流动
-CopyCopied!
